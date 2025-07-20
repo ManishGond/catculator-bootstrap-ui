@@ -1,69 +1,90 @@
-# React + TypeScript + Vite
+<h1 align="center">
+  <img width="30" height="30" alt="paw-icon-pi" src="https://github.com/user-attachments/assets/09eb1a30-ab61-4fc6-aaf3-e2ea13039cc2" />
+  Catculator
+</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Catculator is a fun and functional **cat-themed calculator** built using **React + TypeScript + Vite + Bootstrap**. It blends essential calculator functionality with a charming feline aesthetic, including a cat wallpaper, paw icon, and soft UI touches — because math is better with cats!
 
-Currently, two official plugins are available:
+<p align="center">
+  <img width="100%" alt="Catculator Banner" src="https://github.com/user-attachments/assets/8c3574da-f852-4b8a-814b-5369dee7feca" />
+</p>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Features
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- 🧮 Fully functional calculator (addition, subtraction, multiplication, division)
+- 🐾 Cat-themed UI with paw icon and cat background wallpaper
+- 🎨 Blurred background effect for a soft, modern look
+- 💅 Responsive and styled using **CSS Modules** and **Bootstrap**
+- ⚛️ Type-safe components powered by **React + TypeScript**
+- 🔗 Header includes links to the developer's [LinkedIn](#) and [GitHub](#)
+- 🧱 Clean and modular project structure using Vite
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+---
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+## 📷 Preview
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+<p float="left">
+  <img width="300" alt="Catculator Screenshot 1" src="https://github.com/user-attachments/assets/c5d18d40-2790-4a0e-a347-a300ec6e6f0f" />
+  <img width="300" alt="Catculator Screenshot 2" src="https://github.com/user-attachments/assets/076d5ac8-8cd4-4ea6-89b3-1d768a8e9b70" />
+</p>
+
+---
+
+## 📦 Tech Stack
+
+| Tool         | Purpose                              |
+|--------------|---------------------------------------|
+| React        | Component-based UI library            |
+| TypeScript   | Static typing for JavaScript          |
+| Vite         | Fast development server + bundler     |
+| Bootstrap    | Responsive UI framework               |
+| CSS Modules  | Modular and scoped CSS styling        |
+
+---
+
+## 🗂️ Project Structure
 ```
-
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+catculator/
+├── public/
+│ ├── assets/ # Cat wallpaper, paw icon
+├── src/
+│ ├── components/ # CalculatorHeader, CalculatorMain
+│ ├── styles/ # CSS Module files
+│ ├── utils/ # Type definitions, config
+│ ├── App.tsx
+│ ├── main.tsx
+├── index.html
+├── vite.config.ts
+└── README.md
 ```
+---
+
+## 🛠️ Getting Started
+
+Follow these steps to run the project locally:
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/your-username/catculator.git
+   cd catculator
+   
+2. **Install dependencies**
+   ```bash
+   npm install
+
+3. **Start the development server**
+   ```bash
+   npm run dev
+
+4. **Open in browser**
+   ```bash
+   http://localhost:5173
+
+---
+
+### 🔗 Developer Info
+Built with love by Manish Gond 🐾
+
+[LinkedIn](https://www.linkedin.com/in/ManishGond) (Manish Gond)
