@@ -18,7 +18,7 @@ Catculator is a fun and functional **cat-themed calculator** built using **React
 - 🎨 Blurred background effect for a soft, modern look
 - 💅 Responsive and styled using **CSS Modules** and **Bootstrap**
 - ⚛️ Type-safe components powered by **React + TypeScript**
-- 🔗 Header includes links to the developer's [LinkedIn](https://linkedIn.com/in/ManishGond) and [GitHub](https://github.com/ManishGond/catculator-bootstrap-ui/)
+- 🔗 Header includes links to the developer's [LinkedIn](https://linkedIn.com/in/ManishGond) and [GitHub](https://github.com/ManishGond/)
 - 🧱 Clean and modular project structure using Vite
 
 ---
