@@ -1,0 +1,24 @@
+.calculatorContainer{
+  border: 2px solid black;
+  margin: 20px;
+  margin-top: 40px;
+  width: 402px;
+  height: 621px;
+  border-radius: 5px ;
+  justify-self: center;
+  background-color: #1e1e2f;
+}
+
+.container {
+  position: relative;
+  background-image: url('/assets/bg-wallpaper-1.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden; /* important for ::before clipping */
+}

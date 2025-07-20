@@ -1,0 +1,34 @@
+.calculatorButtons{
+  width: 90px;
+  height: 56px;
+  margin: 2px;
+  border-radius: 7px;
+  font-size: 16px;
+}
+
+.numberButton {
+  background-color: #38394a;
+  color: white;
+}
+
+.operatorButton {
+  background-color: #292a39;
+  color: white;
+}
+
+.controlButton {
+  background-color: #303142;
+  color: white;
+}
+
+.socialButton {
+  background-color: rgb(150, 64, 124);
+  color: white;
+}
+
+.equalsButton {
+  background-color: #4cc2ff;
+  color: black;
+  font-weight: bold;
+  font-size: 25px;
+}

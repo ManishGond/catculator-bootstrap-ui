@@ -1,0 +1,39 @@
+.calculatorTitle{
+  margin: 6px;
+  font-size: large;
+  color: white;
+}
+
+.calculatorInput {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;  
+  align-items: flex-end;       
+  width: 385px;
+  height: 210px;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 60px;
+  margin: 6px;
+  background-color: #1e1e2f;
+  color: white;
+  overflow: hidden;
+  word-wrap: break-word;
+}
+
+.headerRow {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1px; /* spacing between icon and title */
+}
+
+.pawIcon {
+  width: 25px;
+  height:25px;
+  object-fit: contain;
+  background-color: white;
+  border-radius: 100px;
+  margin-left: 10px;
+}
