@@ -21,7 +21,7 @@ export function calculateExpression(expression: string): string {
     }
 
     return format(result, {
-      precision: 4,
+      precision: 3,
       notation: 'fixed',
     });
   } catch (err: any) {
