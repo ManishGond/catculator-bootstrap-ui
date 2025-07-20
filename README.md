@@ -85,6 +85,6 @@ Follow these steps to run the project locally:
 ---
 
 ### 🔗 Developer Info
-Built with love by Manish Gond 🐾
+Built with love by Manish Gond <img width="20" height="20" alt="paw-icon-pi" src="https://github.com/user-attachments/assets/09eb1a30-ab61-4fc6-aaf3-e2ea13039cc2" />
 
 [LinkedIn](https://www.linkedin.com/in/ManishGond) (Manish Gond)
